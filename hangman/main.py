@@ -7,6 +7,7 @@
 # Run your program, a window should briefly appear then disappear
 
 import pygame
+import os
 
 
 
@@ -46,7 +47,7 @@ def draw_stickman(surface, x, y):
 
 pygame.init()
 screen = pygame.display.set_mode((1280,720))
-bg_image = pygame.image.load("background_img.jpg")
+bg_image = pygame.image.load(os.path.abspath("/mnt/c/Users/Jonathan Vinton/Desktop/Epitech/Course_learning/Pre_Pool_Day_8_JRV/hangman/background_img.jpg"))
 bg_image = pygame.transform.scale(bg_image,(1280,720))
 running = True
 clock = pygame.time.Clock()

@@ -1,6 +1,6 @@
 ### Challenge: Using turtle and as few lines of code as possible, try to reproduce one (or more) of the following images.
 
-
+### you can press a circle to get the flower shape.
 import turtle
 import math
 

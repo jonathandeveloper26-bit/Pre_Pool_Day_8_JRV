@@ -43,7 +43,7 @@ def draw_spiral(steps):
     screen.exitonclick()
     
 
-#draw_polygon(3)
+#draw_polygon(8)
 
 draw_spiral(1000)
 
